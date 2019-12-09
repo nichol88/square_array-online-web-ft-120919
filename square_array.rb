@@ -1,6 +1,6 @@
 def square_array(array)
   # your code here
-  squared = array.each { |num|
+  squared = array.map { |num|
     num * num
   }
   return squared
